@@ -7,7 +7,7 @@
 /bazel-out
 
 # Node
-/node_modules
+/client/node_modules
 npm-debug.log
 yarn-error.log
 
@@ -27,7 +27,7 @@ yarn-error.log
 !.vscode/launch.json
 !.vscode/extensions.json
 .history/*
-
+.gitignore
 # Miscellaneous
 /.angular/cache
 .sass-cache/

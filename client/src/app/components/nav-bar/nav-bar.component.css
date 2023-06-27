@@ -1,0 +1,86 @@
+.img_fit{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.submit{
+    background-color: rgb(240,145,56);
+    color:white;
+}
+
+.bg_fb{
+    background-color: rgb(46,106,205);
+    color: white !important;
+}
+.iconGoogle,.iconFacebook {
+    vertical-align:baseline;
+    display: inline-block;
+    height:1.3rem;
+    width:1.3rem;
+    background-size:cover ;
+    margin-right: 0.3rem;
+    margin-top: 0.1rem;
+}
+/* .iconFacebook{
+    background-image: url('../assets/images/fb.svg.png');
+}
+.iconGoogle{
+    background-image: url('../assets/images/google.jpeg');
+} */
+.logo{
+    height: 4rem;
+    width: 4rem;
+    background-image: url('../../../assets/todo.png');
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color:white;
+}
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color:white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 11rem;
+    z-index: 1;
+    color:black;
+
+}
+.hover_border:hover{
+    border-bottom: 2px solid red;
+}
+.btn_white{
+    background-color: white ;
+    color:#dc3545;
+}  
+.btn_white:hover{
+    background-color: #dc3545;
+    color:white;
+}
+.dropdown_content div:hover{
+    background-color: lightgray;
+    border-left: 4px solid #dc3545;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.language{
+    width:auto;
+}
+@media screen and (max-width:992px) and (orientation:portrait) {
+    .language{
+        width:50%;
+    }
+}
+@media screen and (max-width:992px) and (orientation:landscape) {
+    .language{
+        width:40%;
+    }
+}

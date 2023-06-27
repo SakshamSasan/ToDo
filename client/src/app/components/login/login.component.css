@@ -1,0 +1,35 @@
+.googlepill {
+    display: flex !important;
+    justify-content: center !important;
+    padding: 1rem 2rem 1rem 2rem !important;
+    border-color: black !important;
+    border-width: 2.5px !important;
+    font-weight: bold !important;
+    cursor: pointer;
+}
+.icon {
+    vertical-align:text-bottom;
+    display: inline-block;
+    height:1.22rem;
+    width:1.2rem;
+    background-image: url('../../../assets/google.png');
+    background-size:cover ;
+    margin-right: 0.3rem;
+    cursor: pointer;
+}
+#option-line{
+    width:100%;
+  }
+  
+  .line {
+    width:30%;
+    height:0;
+    display: inline-block;
+    border: solid 1px black;
+} 
+  @media screen and (min-width:768px) {
+    
+   #option-line {
+     width:80%;
+   }
+  }
